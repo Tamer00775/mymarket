@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <include file="liquibase/changelog/tables1.sql" relativeToChangelogFile="false"/>
+    <include file="liquibase/changelog/some_fixes.sql" relativeToChangelogFile="false"/>
+    <include file="liquibase/changelog/018_add_product_categories.sql" relativeToChangelogFile="false"/>
+    <include file="liquibase/changelog/status_in_customer_request.sql" relativeToChangelogFile="false"/>
+    <include file="liquibase/changelog/019_delivery_address_fix.sql" relativeToChangelogFile="false"/>
+    <include file="liquibase/changelog/add_alter_table_quantity.sql" relativeToChangelogFile="false"/>
+</databaseChangeLog>

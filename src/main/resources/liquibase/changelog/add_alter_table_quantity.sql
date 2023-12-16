@@ -1,0 +1,1 @@
+alter table order_details add column quantity int;

@@ -1,0 +1,26 @@
+spring:
+  main:
+    timezone: A
+  datasource:
+    url: jdbc:postgresql://localhost:5555/postgres
+    username: myuser
+    password: mypassword
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        show_sql: false
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: tamerlankartaev04@gmail.com
+    password: ybnjgykcybfydfit
+    smtp:
+      auth: true
+      starttls:
+        enable: true
+
+jwt:
+  secret: asfewepreroti
+
+exchange: https://nationalbank.kz/rss/get_rates.cfm?fdate=

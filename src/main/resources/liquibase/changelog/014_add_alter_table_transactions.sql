@@ -1,0 +1,1 @@
+alter table user_transaction_history add column transaction_type varchar;

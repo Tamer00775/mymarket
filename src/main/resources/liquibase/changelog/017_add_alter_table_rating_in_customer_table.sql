@@ -1,0 +1,1 @@
+alter table user_customer add column avg_rate double precision check ( avg_rate >= 0 );
